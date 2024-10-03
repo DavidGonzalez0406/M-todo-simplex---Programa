@@ -1,0 +1,88 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: hsl(210, 50%, 95%); /* Un tono azul claro y suave */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: hsl(0, 0%, 100%); /* Blanco puro para el fondo del contenedor */
+    padding: 30px; /* Aumenta ligeramente el padding */
+    border-radius: 10px; /* Bordes un poco más redondeados */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Sombra más suave */
+    width: 450px; 
+}
+
+h1 {
+    font-size: 28px; /* Aumenta el tamaño del título */
+    margin-bottom: 25px;
+    text-align: center;
+    color: hsl(210, 80%, 25%); /* Título en un azul más oscuro */
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: hsl(210, 40%, 30%); /* Color de texto de las etiquetas en gris oscuro */
+}
+
+.form-group input, .form-group textarea, .form-group select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid hsl(210, 20%, 80%); /* Borde gris claro */
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: hsl(210, 60%, 98%); /* Fondo gris muy claro */
+}
+
+#objective {
+    height: 40px;
+}
+
+#constraints {
+    height: 150px;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    background-color: hsl(141, 53%, 45%); /* Verde suave */
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: hsl(141, 53%, 35%); /* Verde más oscuro en hover */
+}
+
+.hidden {
+    display: none;
+}
+
+#results {
+    margin-top: 20px;
+    background-color: hsl(141, 100%, 94%); /* Verde muy claro para el área de resultados */
+    padding: 15px;
+    border-radius: 6px;
+    border: 1px solid hsl(141, 53%, 45%);
+}
+
+pre {
+    background: hsl(0, 0%, 97%); /* Fondo gris claro para bloques de código */
+    padding: 12px;
+    border-radius: 5px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
