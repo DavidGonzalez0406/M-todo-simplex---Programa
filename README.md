@@ -8,6 +8,8 @@ Al iniciar el programa podremos ver la interfaaz para la resolucion del problema
       x1 + 3x2 = 8
       (No es nescesario escribir la restriccion de la no negatividad)
 4-Interactuar con el boton de resolver para visualizar resultados.
+5-Se muestra en pantalla los resultados.
+6-Para volver a usar el programa es nescesario reiniciar la pagina.
 
 Integrantes:
 Gonzalez Velazquez David Antonio
