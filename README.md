@@ -1,2 +1,8 @@
-# M-todo-simplex---Programa
-Programa con interfaz gráfica, en la tecnología que deseen, que permita a una persona resolver un problema de programación lineal mediante el método simplex.
+Al iniciar el programa podremos la interfaaz para la resolucion del problema simplex.
+1-Ingresar la funcion objetivo declarando las variables x1,x2,x3...etc. escribir la funcion de la forma: 3x1 + 2x2
+2-Ingresar las restricciones escribiendo una por linea de la forma:
+      x1 + x2 ≤ 10
+      2x1 + x2 ≥ 5
+      x1 + 3x2 = 8
+3-Seleccionar el tipo de operacion que se quiere realizar ya sea maximizar o minimizar.
+4-Interactuar con el boton de resolver para visualizar resultados.
