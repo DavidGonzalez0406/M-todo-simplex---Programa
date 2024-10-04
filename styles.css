@@ -5,13 +5,16 @@ body {
     padding: 20px;
 }
 
+
 .container {
-    max-width: 600px;
-    margin: auto;
+    width: auto;
+    height: auto;
+    margin: 400px;
     padding: 20px;
     background-color: #ffffff;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
 }
 
 h1 {
@@ -79,11 +82,16 @@ select:focus {
 }
 
 #results {
-    margin-top: 20px;
+    margin-bottom: 20px;
     padding: 15px;
     border: 1px solid #003366;
     border-radius: 4px;
     background-color: #e8f0ff;
+    position: absolute;
+    width: 100%;
+    top: -200px;
+    left: 0;
+    z-index: 10;
 }
 
 .hidden {
