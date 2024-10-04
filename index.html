@@ -9,9 +9,15 @@
 <body>
     <div class="container">
         <h1>Método Simplex</h1>
+        
+        <!-- Contenedor de resultados -->
+        <div id="results" class="hidden">
+            <h2>Resultados:</h2>
+            <pre id="solutionSteps"></pre>
+        </div>
 
         <div class="form-group">
-            <label for="type">Tipo de Operacion:</label>
+            <label for="type">Tipo de Operación:</label>
             <select id="type" name="type">
                 <option value="max">Maximizar</option>
                 <option value="min">Minimizar</option>
@@ -31,11 +37,6 @@
 
             <button type="submit" id="solveBtn" class="btn">Resolver</button>
         </form>
-       
-        <div id="results" class="hidden">
-            <h2>Resultados:</h2>
-            <pre id="solutionSteps"></pre>
-        </div>
     </div>
 
     <script src="scripts.js"></script>
