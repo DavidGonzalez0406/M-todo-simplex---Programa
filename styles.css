@@ -1,88 +1,95 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: hsl(210, 50%, 95%); /* Un tono azul claro y suave */
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
     margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    padding: 20px;
 }
 
 .container {
-    background: hsl(0, 0%, 100%); /* Blanco puro para el fondo del contenedor */
-    padding: 30px; /* Aumenta ligeramente el padding */
-    border-radius: 10px; /* Bordes un poco más redondeados */
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Sombra más suave */
-    width: 450px; 
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
-    font-size: 28px; /* Aumenta el tamaño del título */
-    margin-bottom: 25px;
+    color: #003366;
     text-align: center;
-    color: hsl(210, 80%, 25%); /* Título en un azul más oscuro */
 }
 
 .form-group {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
-.form-group label {
+label {
     display: block;
-    margin-bottom: 8px;
-    color: hsl(210, 40%, 30%); /* Color de texto de las etiquetas en gris oscuro */
+    margin-bottom: 5px;
+    color: #003366;
 }
 
-.form-group input, .form-group textarea, .form-group select {
+input[type="text"],
+textarea,
+select {
     width: 100%;
-    padding: 12px;
-    border: 1px solid hsl(210, 20%, 80%); /* Borde gris claro */
-    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #003366;
+    border-radius: 4px;
     font-size: 16px;
-    background-color: hsl(210, 60%, 98%); /* Fondo gris muy claro */
+    background-color: #e6f2ff;
+}
+
+#type {
+    max-width: 150px;
+    width: auto;
 }
 
 #objective {
-    height: 40px;
+    max-width: 300px;
+    width: auto;
 }
 
 #constraints {
-    height: 150px;
+    max-width: 300px;
+    height: 150px; 
 }
 
-button {
-    width: 100%;
-    padding: 15px;
-    font-size: 18px;
-    background-color: hsl(141, 53%, 45%); /* Verde suave */
-    color: white;
+input[type="text"]:focus,
+textarea:focus,
+select:focus {
+    border-color: #0056b3;
+    outline: none;
+}
+
+.btn {
+    background-color: #003366;
+    color: #ffffff;
     border: none;
-    border-radius: 6px;
+    padding: 10px 15px;
+    border-radius: 4px;
     cursor: pointer;
+    font-size: 16px;
+    width: 100%;
     transition: background-color 0.3s ease;
 }
 
-button:hover {
-    background-color: hsl(141, 53%, 35%); /* Verde más oscuro en hover */
+.btn:hover {
+    background-color: #0056b3;
+}
+
+#results {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #003366;
+    border-radius: 4px;
+    background-color: #e8f0ff;
 }
 
 .hidden {
     display: none;
 }
 
-#results {
-    margin-top: 20px;
-    background-color: hsl(141, 100%, 94%); /* Verde muy claro para el área de resultados */
-    padding: 15px;
-    border-radius: 6px;
-    border: 1px solid hsl(141, 53%, 45%);
-}
-
 pre {
-    background: hsl(0, 0%, 97%); /* Fondo gris claro para bloques de código */
-    padding: 12px;
-    border-radius: 5px;
-    white-space: pre-wrap;
-    word-wrap: break-word;
+    color: #003366;
 }
