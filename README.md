@@ -6,6 +6,7 @@ Al iniciar el programa podremos ver la interfaaz para la resolucion del problema
       x1 + x2 ≤ 10
       2x1 + x2 ≥ 5
       x1 + 3x2 = 8
+      (No es nescesario escribir la restriccion de la no negatividad)
 4-Interactuar con el boton de resolver para visualizar resultados.
 
 Integrantes:
