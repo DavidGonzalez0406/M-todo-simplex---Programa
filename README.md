@@ -1,5 +1,5 @@
 El programa usa HTML.CSS Y JavaScript asi que no es nescesario una app en concreto solo ejecutar el index.
-Al iniciar el programa podremos la interfaaz para la resolucion del problema simplex.
+Al iniciar el programa podremos ver la interfaaz para la resolucion del problema simplex.
 1-Ingresar la funcion objetivo declarando las variables x1,x2,x3...etc. escribir la funcion de la forma: 3x1 + 2x2
 2-Ingresar las restricciones escribiendo una por linea de la forma:
       x1 + x2 ≤ 10
